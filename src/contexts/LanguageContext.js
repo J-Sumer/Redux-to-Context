@@ -13,7 +13,7 @@ export class LanguageStore extends React.Component {
 
     render() {
         return (
-            <Context.Provider vlaue={{ ...this.state , onLanguageChange: this.onLanguageChange}}>
+            <Context.Provider value={{ ...this.state , onLanguageChange: this.onLanguageChange}}>
                 {this.props.children}
             </Context.Provider>
         )
@@ -21,7 +21,6 @@ export class LanguageStore extends React.Component {
 
     // this.props.children will have the jsx present inside the parent
 }
-
 
 export default Context;
 
