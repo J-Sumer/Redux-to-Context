@@ -28,14 +28,5 @@ export default Context;
 
 
 
-
-
-
-
-
-
-
-
-
 // const context = React.createContext('telugu');
 // export default context;
